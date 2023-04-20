@@ -1,0 +1,29 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Title }} of {{ .Site.Title }}">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/list.css" media="all">
+{{ end }}
+
+{{ define "title" }}
+{{.Title }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container pt-5" id="list-page">
+    <h2 class="text-center pb-2">{{.Title}}</h2>
+    <div class="row g-3">
+        <div class="px-0 px-md-5 px-lg-5">
+            <div class="row justify-content-center px-3 px-md-5 px-lg-5 pb-4">
+                {{ range .Site.Params.about.skills.items }}
+                <div class="col mb-3 h-100 col-md-3">
+                    <div class="card my-3 h-100 p-3" style="width: 10rem;" title="{{ . }}">
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title text-center bg-transparent">{{ . }}</h5>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
