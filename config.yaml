@@ -101,10 +101,10 @@ params:
     title: "David"
     subtitle: "I like to solve interesting problems with code"
     # content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    image: /images/programming.jpg
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
+    roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
@@ -117,48 +117,33 @@ params:
           url: https://example.com
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/david-ohayon-907b85138/
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+      customIcons: []
+        # - icon: /fav.png
+        #   url: "https://example.com"
 
   # About
   about:
     enable: true
-    title: "About Me"
-    image: "/images/me.png"
+    title: ""
+    image: "/images/aboutme.jpeg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      ...
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Blahblahblah"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "flower"
-        - "wtf"
-        - "ads"
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "flower"
-        - "wtf"
-        - "ads"
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "flower"
-        - "wtf"
-        - "ads"
-
+        - name: "Python" 
+          img: /images/python-logo.png
+        - name: "Go" 
+          img: /images/gopher-logo.png
+        - name: "Java" 
+          img: /images/java-logo.png
+        - name: "Kubernetes" 
+          img: /images/k8s-logo.png
+        - name: "Terraform" 
+          img: /images/hero.svg
+        - name: "AWS" 
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png"
 
   # Experience
   experience:
@@ -167,63 +152,37 @@ params:
     items:
       - job: "Senior Backend Engineer"
         company: "Meltwater GmbH"
-        companyUrl: "https://example.com"
         date: "June 2022 - present"
         featuredLink:
           enable: false
           name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: "blahblah"
 
       - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        company: "Contentful"
+        date: "July 2021 - June 2022"
         featuredLink:
-          enable: true
-          url: "https://example.com"
+          enable: false
         info:
-          enable: true
+          enable: false
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          blahblah
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - blo
+          - blolo
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+      - job: "Data Engineer"
+        company: "Raisin GmbH"
+        
+        date: "April 2018 - July 2021"
         info:
           enable: false
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          blobosoos
 
   # Education
   education:
@@ -281,7 +240,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile

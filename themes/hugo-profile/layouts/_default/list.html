@@ -9,18 +9,17 @@
 
 {{ define "main" }}
 <div class="container pt-5" id="list-page">
-    <h2 class="text-center pb-2">{{.Title}}</h2>
+    <h2 class="text-center pb-5">{{.Title}}</h2>
     <div class="row g-3">
         <div class="px-0 px-md-5 px-lg-5">
-            <div class="row justify-content-center px-3 px-md-5 px-lg-5 pb-4">
+                <div class="row gy-2">
                 {{ range .Site.Params.about.skills.items }}
-                <div class="col mb-3 h-100 col-md-3">
-                    <div class="card my-3 h-100 p-3" style="width: 10rem;" title="{{ . }}">
-                        <div class="card-body bg-transparent">
-                            <h5 class="card-title text-center bg-transparent">{{ . }}</h5>
+                    <div class="col-lg-2 col-md-4 pb-4">
+                        <div class="box bg-primary h-100 d-flex p-3 flex-column  text-white text-center">
+                            <img src="{{ .img }}" class="img-fluid w-50 mx-auto" alt="">
+                            <h3 class="mt-auto">{{ .name }}</h3>
                         </div>
                     </div>
-                </div>
                 {{ end }}
             </div>
         </div>
