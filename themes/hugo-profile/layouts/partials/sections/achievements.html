@@ -9,9 +9,10 @@
                 <div class="col-lg-4 col-md-6 my-3">
                     <a class="card my-3 h-100 p-3" href="{{ .url }}" title="{{ .title }}" target="_blank">
                         <div class="card-body bg-transparent">
-                            <h5 class="card-title bg-transparent">{{ .title }}</h5>
-                            <div class="card-text secondary-font">
-                                {{ .content }}
+                            <h5 class="card-title bg-transparent text-center pb-3">{{ .title }}</h5>
+                                            
+                            <div class="card-text secondary-font text-center">
+                                <img src="{{ .img }}" class="img-fluid w-75 mx-auto"  alt="">
                             </div>
                         </div>
                     </a>
