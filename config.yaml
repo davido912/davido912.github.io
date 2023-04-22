@@ -108,7 +108,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://drive.google.com/u/1/uc?id=1aVBCucD_f6h5dgflu8QfWq8Ats-l4JdV&export=download"
       download: true
       newPage: false
     socialLinks:
@@ -129,7 +129,7 @@ params:
     content: |-
       ...
     skills:
-      enable: true
+      enable: false
       title: "Blahblahblah"
       items:
         - name: "Python" 
@@ -138,12 +138,44 @@ params:
           img: /images/gopher-logo.png
         - name: "Java" 
           img: /images/java-logo.png
+        - name: "SQL" 
+          img: "/images/db.png"
         - name: "Kubernetes" 
           img: /images/k8s-logo.png
         - name: "Terraform" 
-          img: /images/hero.svg
+          img: /images/terraform.png
         - name: "AWS" 
           img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png"
+        - name: "Docker" 
+          img: "/images/docker.webp"
+        - name: "CI/CD" 
+          img: "/images/ci-cd.webp"
+        - name: "Apache Kafka" 
+          img: "/images/kafka.png"
+        - name: "Spring Boot" 
+          img: "/images/springboot.png"
+        - name: "Redshift" 
+          img: "/images/redshift.png"
+        - name: "Snowflake" 
+          img: "/images/snowflake.png"
+        - name: "Grafana" 
+          img: "/images/grafana.png"
+        - name: "Prometheus" 
+          img: "/images/prometheus.png"
+        - name: "PostgreSQL/MySQL" 
+          img: ""
+        - name: "Flask" 
+          img: "/images/flask.png"
+        - name: "Helm" 
+          img: "/images/helm.png"
+        - name: "Drone" 
+          img: ""
+        - name: "CircleCI" 
+          img: ""
+        - name: "Apache Airflow" 
+          img: "/images/airflow.png"
+
+
 
   # Experience
   experience:
@@ -233,9 +265,12 @@ params:
     items:
       - title: AWS Certified Solutions Architect – Associate
         url: https://www.credly.com/badges/9a79220d-6b8b-4886-a309-88952180ff9b?source=linked_in_profile
+        img: /images/aws-sol-arch-badge.png
       - title: AWS Certified Developer – Associate
+        img: /images/aws-dev-assoc.png
         url: https://www.credly.com/badges/b3aadc55-e19a-4834-8b9e-0bb8787e0b52?source=linked_in_profile
       - title: "CKAD: Certified Kubernetes Application Developer"
+        img: /images/cka.png
         url: https://www.credly.com/badges/458b16df-7798-4218-b933-01429191cea7?source=linked_in_profile
 
   # projects
