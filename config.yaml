@@ -108,7 +108,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/u/1/uc?id=1aVBCucD_f6h5dgflu8QfWq8Ats-l4JdV&export=download"
+      url: "https://docs.google.com/document/export?format=pdf&id=1wM0gzmRYBuNwUh9pADLSVjs9OaLGj0q0"
       download: true
       newPage: false
     socialLinks:
