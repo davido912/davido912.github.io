@@ -113,8 +113,8 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
+        # - icon: fab fa-github
+        #   url: https://example.com
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/david-ohayon-907b85138/
       customIcons: []
@@ -127,7 +127,12 @@ params:
     title: ""
     image: "/images/aboutme.jpeg"
     content: |-
-      ...
+      I'm a passionate programmer who loves to solve challenging problems. 
+      I'm always excited to learn about new and emerging technologies and apply them in my work. 
+      My expertise lies in backend and data-related topics, and I've worked on various projects ranging from automation, data ingestion (both batch and streaming), REST APIs and microservices to DevOps related topics.
+      I strive to create elegant, efficient, and scalable solutions that deliver real value to the end-users.
+
+      If you want to find out more about some of the technologies I've worked with, check out the technologies section.
     skills:
       enable: false
       title: "Blahblahblah"
@@ -188,7 +193,13 @@ params:
         featuredLink:
           enable: false
           name: "View the project"
-        content: "blahblah"
+        content: |-
+          Worked in a backend team that handled over 1 billion events a day across many of our services. Many of the services exposed functionalities via
+          REST API and they were written using Java/ Golang/ Python. Infrastructure required by our services was provisioned, managed and monitored by us (Terraform, ELK, Prom, Grafana).
+
+          - Designed and implemented a Kafka Streams service written in Java that processed and validated 1 billion documents daily, improving delivery quality to end-customers.
+          - Developed a Spring Boot based REST API that acted as a gateway between the application's website and different providers across the company. Leading to deprecation of legacy components and thus lower costs and ease of maintenance.
+          - Built scalable data streaming services using Python and Go, which extracted data from social media providers such as Facebook, YouTube, and Twitter. The data constituted approximately 20% of the data used for the company's end-product.
 
       - job: "Software Developer"
         company: "Contentful"
@@ -197,12 +208,15 @@ params:
           enable: false
         info:
           enable: false
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          blahblah
+          
+        content: |-
+          Worked in a data platform team responsible of managing and provisioning data related services. Additionally, automated data ingestion processes
+          and improved data quality standards. 
 
-          - blo
-          - blolo
+          - Provisioned and managed infrastructure using Terraform and Kubernetes for the data platform team, enabling efficient development across multiple data functions.
+          - Designed, developed, tested and monitored over 50 Airflow based ELT (extract, load and transform) pipelines written in Python/Go. The pipelines fueled business critical functionalities with data on a daily basis.
+          - Worked on a company wide consolidated billing project that enabled monitoring all costs incurred by AWS based services. This improved cost awareness and led to the reduction of total AWS costs by 20%.
+          
 
       - job: "Data Engineer"
         company: "Raisin GmbH"
@@ -213,8 +227,14 @@ params:
         featuredLink:
           enable: false
           url: "https://example.com"
-        content: |
-          blobosoos
+        content: |-
+            Worked in a Data team which was responsible ingesting and monitoring data delivery for all company internal functions (e.g. marketing, SEO, HR, finance). Additionally,
+            we provided analytics related dashboards and reporting for the entire company.
+
+
+            - Led and completed a full migration from AWS Redshift to Snowflake and the relevant data pipelines/data ingestion services. This resulted in a significant improvement in general query and analytics dashboards performance.
+            - Automation of data ingestion and general operations by using Apache Airflow and Python based pipelines which allowed jobs to be executed on higher frequency and improved data freshness.
+            - Drove a project that led to the containerization of the data team’s entire setup which resulted in improved portability, consistency and scalability of our services and applications.
 
   # Education
   education:
