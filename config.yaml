@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://davido912.github.io/"
 languageCode: "en-us"
 title: "This is me!"
 theme: hugo-profile
@@ -14,8 +14,7 @@ outputs:
 
 Paginate: 10
 enableRobotsTXT: true
-# disqusShortname: your-disqus-shortname
-# googleAnalytics: G-MEASUREMENT_ID
+
 
 markup:
   goldmark:
@@ -32,7 +31,6 @@ Menus:
 
 
 params:
-
   title: "Who am I?"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
@@ -42,11 +40,6 @@ params:
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
   # Note the lack of "" in true, it should be of boolean type.
   useBootstrapCDN: false
-
-  # If you want to load dynamically responsive images from Cloudinary
-  # This requires your images to be uploaded + hosted on Cloudinary
-  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
-  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
 
   # Whether the fade animations on the home page will be enabled
   animate: true
@@ -94,13 +87,11 @@ params:
       disableAchievements: false
       disableContact: false
 
-  # Hero
   hero:
     enable: true
     intro: "Heyo! I am"
     title: "David"
     subtitle: "I like to solve interesting problems with code"
-    # content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
     image: /images/programming.jpg
     bottomImage:
       enable: true
@@ -135,7 +126,7 @@ params:
       If you want to find out more about some of the technologies I've worked with, check out the technologies section.
     skills:
       enable: false
-      title: "Blahblahblah"
+      title: ""
       items:
         - name: "Python" 
           img: /images/python-logo.png
@@ -241,42 +232,16 @@ params:
     enable: false
     # title: "Custom Name"
     index: false
-    items:
-      - title: "B.A International Business"
-        school:
-          name: "HTW, Berlin"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+    # items:
+    #   - title: "B.A International Business"
+    #     school:
+    #       name: "HTW, Berlin"
+    #     date: "2013 - 2015"
+    #     GPA: "3.8 out of 5.0"
+    #     content: |-
+    #       Extracurricular Activities
+    #         - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    #         - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
 
   # Achievements
   achievements:
