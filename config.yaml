@@ -180,9 +180,21 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Senior Software Developer"
+        company: "Trade Republic"
+        date: "April 2023 - present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+        content: |-
+          - Migration from an EC2 based RabbitMQ to a Kubernetes based RabbitMQ (using the RabbitMQ Kubernetes operator). Additionally, broke out of a single RabbitMQ cluster approach,
+          to support a multi-cluster approach and thus allowing for more throughput and lower e2e latency of message processing. This enabled handling 150k concurrent users.
+          - Implemented KafkaConnect as a service, leveraging Kafka Strimzi operator which enabled teams to get data in and out of Kafka (AWS MSK) in standardized fashion while sharing internally built connectors. Time to ship
+          new features was reduced by allowing teams to utilise this framework.
+
       - job: "Senior Backend Engineer"
         company: "Meltwater GmbH"
-        date: "June 2022 - present"
+        date: "June 2022 - April 2023"
         featuredLink:
           enable: false
           name: "View the project"
