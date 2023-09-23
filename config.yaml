@@ -331,7 +331,7 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
+      github: https://github.com/davido912
       linkedin: https://linkedin.com
 
   # List pages like blogs and posts
